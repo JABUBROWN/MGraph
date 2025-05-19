@@ -1,6 +1,7 @@
 import argparse
 import os.path
 import numpy as np
+import torch
 from execute.base_trainer import BaseTrainer
 from execute.mgraph_trainer import MGraphTrainer
 from util.check_cuda import check_cuda
@@ -48,5 +49,12 @@ model, optimizer, lr_scheduler, loss, logger = model_initialize(args, A, print_p
 # Initialize trainer.
 trainer = MGraphTrainer(args, model, optimizer, lr_scheduler, loss, train_dataloader, val_dataloader, test_dataloader, scaler, logger)
 
-# Train model
-trainer.train()
+# Run based on stage
+if args.stage == "train":
+    trainer.train()
+elif args.stage == "test":
+    checkpoint_path = os.path.join(args.root_path, "checkpoints", f"mgraph_{args.data_name}_seed{args.seed}.pth")
+    if not os.path.exists(checkpoint_path):
+        raise FileNotFoundError(f"Checkpoint file {checkpoint_path} not found. Please train the model first.")
+    best_model = torch.load(checkpoint_path)
+    trainer.test(best_model, trainer.before_model_forward, trainer.after_model_forward)
