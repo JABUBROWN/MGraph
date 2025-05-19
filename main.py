@@ -20,7 +20,7 @@ ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 # system args
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--device", default="2", type=str, choices=['0', '1', '2', '3', 'cpu'])
+parser.add_argument("--device", default="0", type=str, choices=['0', '1', '2', '3', 'cpu'])
 parser.add_argument("--stage", default="train", type=str, choices=["train", "test"])
 parser.add_argument("--epoch", default=100, type=int, help="Maximum training epoch.")
 parser.add_argument("--seed", default=1, type=int, help="Random Seed (usually from 1 to 10).")
