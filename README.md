@@ -22,7 +22,7 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
 - **PyTorch**: 1.9 or higher
 
-- **CUDA**: 11.6 or higher (for GPU training, e.g., NVIDIA RTX 4090)
+- **CUDA**: 11.6 or higher (for GPU training, e.g., NVIDIA RTX 3090)
 
 - **Dependencies**: Install required packages:
 
