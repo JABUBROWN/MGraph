@@ -1,0 +1,18 @@
+# Ignore IDE/project settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if using Python)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore large or generated files
+*.log
+*.tmp
+*.bak
