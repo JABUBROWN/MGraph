@@ -34,7 +34,7 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
    ```bash
    git clone https://github.com/JABUBROWN/MGraph.git
-   cd MGraph/MGraph
+   cd MGraph/
    ```
 
 2. **Install Dependencies**:
