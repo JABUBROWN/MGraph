@@ -21,9 +21,9 @@ scikit-learn==1.6.1
 scipy==1.13.1
 six==1.17.0
 threadpoolctl==3.6.0
-torch==1.13.1+cu116
-torchaudio==0.13.1+cu116
-torchvision==0.14.1+cu116
+torch
+torchaudio
+torchvision
 tqdm==4.67.1
 typing_extensions==4.13.2
 tzdata==2025.2
