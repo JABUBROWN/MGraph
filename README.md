@@ -47,12 +47,12 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
    - PeMS03 and PeMS04 are included in `datasets/` .
 
-   - Download PeMS07, PeMS08, and METR-LA Google Drive (\[insert Google Drive link\]).
+   - Download PeMS07, PeMS08, and METR-LA Google Drive (\[https://drive.google.com/drive/folders/1UtJ017rrQrvdhND8t1ewLBNBY83O0fgv?usp=sharing\]).
 
-   - Place data files in `datasets/` with the following structure:
+   - Place data files in `dataset/` with the following structure:
 
      ```
-     datasets/
+     dataset/
      ├── PeMS03
      │   ├── PEMS03.npz
      │   ├── PEMS03.txt
@@ -68,8 +68,8 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
      - PeMS datasets:
        - `.npz`: Preprocessed traffic flow data (e.g., vehicle counts over time steps).
-       - `.txt`: Sensor ID mappings (e.g., mapping `313344` to index `0`).
-       - `.csv`: Static adjacency data (e.g., sensor pairs and distances, used in Ablation 2 or for metadata).
+       - `.csv`: Static adjacency data.
+       - （PeMS03)-（`.txt`: Sensor ID mappings (e.g., mapping `313344` to index `0`).
      - METR-LA: `.h5` (traffic flow data).
 
    - Experimental data is available at IEEE DataPort (DOI: 10.21227/matk-gf81).
