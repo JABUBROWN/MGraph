@@ -121,8 +121,8 @@ The MGraph model is evaluated on five traffic flow datasets:
 
 The ablation study (Section IV of the paper) evaluates two variants:
 
-- **w/o Weekly Regularity**: Removes the weekly regularity scheme (Algorithm 1), increasing MAE (e.g., 4.45 to 4.48 on METR-LA at 60 min).
-- **w/o Adaptive Adjacency**: Uses a static adjacency matrix (from `.txt` and `.csv` files, e.g., `PEMS03.txt`, `PEMS03.csv`), significantly increasing MAE (e.g., 18.61 to 23.76 on PeMS04, 27.7%) and runtime (e.g., 8:14.6 to 24:41.8 per seed on PeMS08, 199.6%).
+- **w/o Weekly Regularity**: Removes the weekly regularity scheme.
+- **w/o Adaptive Adjacency**: Uses a static adjacency matrix.
 
 Results are detailed in the paper (Table II) and DataPort (`Final_Experiments/Results/Ablation`, DOI: 10.21227/matk-gf81).
 
