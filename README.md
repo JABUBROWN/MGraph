@@ -59,7 +59,6 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
      │   └── PEMS03.csv
      ├── PeMS04
      │   ├── PEMS04.npz
-     │   ├── PEMS04.txt
      │   └── PEMS04.csv
      ...
      ```
