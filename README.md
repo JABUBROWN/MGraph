@@ -45,7 +45,7 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
 3. **Prepare Datasets**:
 
-   - PeMS03 and PeMS04 are included in `datasets/` .
+   - PeMS03 and PeMS04 are included in `dataset/` .
 
    - Download PeMS07, PeMS08, and METR-LA Google Drive (\[https://drive.google.com/drive/folders/1UtJ017rrQrvdhND8t1ewLBNBY83O0fgv?usp=sharing\]).
 
