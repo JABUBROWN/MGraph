@@ -1,6 +1,7 @@
 # MGraph: Adaptive Multi-Graph Neural Network for Traffic Flow Forecasting
 
-This repository contains the implementation of **MGraph**, a novel adaptive multi-graph neural network for dynamic spatial-temporal traffic flow forecasting, as presented in the paper *"MGraph: Adaptive Multi-Graph Neural Network for Dynamic Spatial-Temporal Traffic Flow Forecasting"* , submitted to IEEE Transactions on Intelligent Transportation Systems (T-ITS).
+This repository contains the implementation of **MGraph**, a novel adaptive multi-graph neural network for dynamic spatial-temporal traffic flow forecasting, as presented in the paper *"Modulated Graph Neural Network for Dynamic Spatiotemporal
+Traffic Forecasting"* , submitted to Electronics (MDPI).
 
 MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to model evolving spatial dependencies and temporal periodicity in traffic flow data. The model achieves state-of-the-art performance on datasets like PeMS03, PeMS04, PeMS07, PeMS08, and METR-LA, with significant accuracy (e.g., 8.7% MAE reduction on PeMS08) and computational efficiency (e.g., 199.6% runtime reduction on PeMS08).
 
@@ -47,7 +48,7 @@ MGraph leverages an adaptive adjacency matrix and a weekly regularity scheme to 
 
    - PeMS03 and PeMS04 are included in `dataset/` .
 
-   - Download PeMS07, PeMS08, and METR-LA Google Drive (\[https://drive.google.com/drive/folders/1UtJ017rrQrvdhND8t1ewLBNBY83O0fgv?usp=sharing\]).
+   - Download PeMS07 and PeMS08 from Google Drive (\[https://drive.google.com/drive/folders/1UtJ017rrQrvdhND8t1ewLBNBY83O0fgv?usp=sharing\]).
 
    - Place data files in `dataset/` with the following structure:
 
