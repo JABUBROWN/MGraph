@@ -1,4 +1,4 @@
-# MGraph: Adaptive Multi-Graph Neural Network for Traffic Flow Forecasting
+# Modulated Graph Neural Network for Dynamic Spatiotemporal Traffic Forecasting
 
 This repository contains the implementation of **MGraph**, a novel adaptive multi-graph neural network for dynamic spatial-temporal traffic flow forecasting, as presented in the paper *"Modulated Graph Neural Network for Dynamic Spatiotemporal
 Traffic Forecasting"* , submitted to Electronics (MDPI).
