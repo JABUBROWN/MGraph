@@ -115,7 +115,6 @@ The MGraph model is evaluated on five traffic flow datasets:
 - **PeMS04**: 307 sensors, 16,992 time steps.
 - **PeMS07**: 883 sensors, 28,224 time steps.
 - **PeMS08**: 170 sensors, 17,856 time steps.
-- **METR-LA**: 207 sensors, 34,272 time steps.
 
 ## Ablation Study
 
